@@ -61,7 +61,7 @@ class _CommunityBodyState extends State<CommunityBody> {
     }
 
     return Scaffold(
-      backgroundColor: AppColors.bacround,
+      backgroundColor: AppColors.background,
       appBar: RecipeAppBar(
         title: "Community",
         actions: [
@@ -306,7 +306,7 @@ class _CommunityTabs extends StatelessWidget {
       padding: const EdgeInsets.only(left: 30, right: 30),
       child: Container(
         height: 25,
-        color: AppColors.bacround,
+        color: AppColors.background,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: List.generate(
@@ -321,7 +321,7 @@ class _CommunityTabs extends StatelessWidget {
                   height: 25,
                   decoration: BoxDecoration(
                     color:
-                        isSelected ? AppColors.redpinkmain : AppColors.bacround,
+                        isSelected ? AppColors.redpinkmain : AppColors.background,
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Center(

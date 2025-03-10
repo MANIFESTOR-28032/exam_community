@@ -52,7 +52,7 @@ class RecipeDetailBody extends StatelessWidget {
                           Text(
                             "4",
                             style: TextStyle(
-                                color: AppColors.bacround, fontSize: 12),
+                                color: AppColors.background, fontSize: 12),
                           ),
                           SizedBox(width: 8),
                           SvgPicture.asset(
@@ -65,7 +65,7 @@ class RecipeDetailBody extends StatelessWidget {
                           Text(
                             "28",
                             style: TextStyle(
-                                color: AppColors.bacround, fontSize: 12),
+                                color: AppColors.background, fontSize: 12),
                           ),
                         ],
                       ),

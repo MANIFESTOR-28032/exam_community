@@ -22,7 +22,7 @@ class RecipeItemImage extends StatelessWidget {
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
-              color: AppColors.bacround.withValues(alpha: 0.25),
+              color: AppColors.background.withValues(alpha: 0.25),
               blurRadius: 4,
               offset: Offset(0, 4),
             ),

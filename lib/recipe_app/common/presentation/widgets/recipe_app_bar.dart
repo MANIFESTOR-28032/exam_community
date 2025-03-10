@@ -28,7 +28,7 @@ class RecipeAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: AppColors.bacround,
+      backgroundColor: AppColors.background,
       toolbarHeight: toolbarHeight,
       leading: Align(
         alignment: Alignment.center,

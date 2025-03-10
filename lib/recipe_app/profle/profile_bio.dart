@@ -21,7 +21,7 @@ class ProfileBio extends StatelessWidget {
           contentPadding: EdgeInsets.only(left: 25, top: 20),
           hintText: "About Yourself",
           hintStyle: TextStyle(
-            color: AppColors.bacround.withValues(alpha: 0.5),
+            color: AppColors.background.withValues(alpha: 0.5),
           ),
           filled: true,
           fillColor: AppColors.redpink,

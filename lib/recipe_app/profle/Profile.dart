@@ -40,9 +40,9 @@ class ProfilePage extends StatelessWidget {
     return ListenableBuilder(
       listenable: vm,
       builder: (context, child) => Scaffold(
-        backgroundColor: AppColors.bacround,
+        backgroundColor: AppColors.background,
         appBar: AppBar(
-          backgroundColor: AppColors.bacround,
+          backgroundColor: AppColors.background,
           toolbarHeight: 60,
           title: Center(
             child: Text(

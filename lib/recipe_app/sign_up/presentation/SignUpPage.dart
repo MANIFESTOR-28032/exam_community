@@ -53,9 +53,9 @@ class SignUpPage extends StatelessWidget {
   Widget build(BuildContext context) {
     context.watch<LocalizationViewModel>().currentLocale;
     return Scaffold(
-      backgroundColor: AppColors.bacround,
+      backgroundColor: AppColors.background,
       appBar: AppBar(
-        backgroundColor: AppColors.bacround,
+        backgroundColor: AppColors.background,
         leading: Center(
           child: IconButton(
             icon: SvgPicture.asset(

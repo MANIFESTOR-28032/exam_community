@@ -23,9 +23,9 @@ class CategoryPage extends StatelessWidget {
     return ListenableBuilder(
       listenable: vm,
       builder: (context, child) => Scaffold(
-        backgroundColor: AppColors.bacround,
+        backgroundColor: AppColors.background,
         appBar: AppBar(
-          backgroundColor: AppColors.bacround,
+          backgroundColor: AppColors.background,
           title: Center(
             child: Text(
               MyLocalizations.of(context)!.login,

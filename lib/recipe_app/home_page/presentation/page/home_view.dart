@@ -25,9 +25,9 @@ class HomePageView extends StatelessWidget {
   Widget build(BuildContext context) {
     final vm = context.watch<HomePageViewModel>();
     return Scaffold(
-      backgroundColor: AppColors.bacround,
+      backgroundColor: AppColors.background,
       appBar: AppBar(
-        backgroundColor: AppColors.bacround,
+        backgroundColor: AppColors.background,
         toolbarHeight: 70,
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -77,7 +77,7 @@ class HomePageView extends StatelessWidget {
           child: Container(
             height: 60,
             padding: EdgeInsets.symmetric(vertical: 10),
-            color: AppColors.bacround, // Orqa fon rangi
+            color: AppColors.background, // Orqa fon rangi
             // child: ListView.builder(
             //   itemBuilder: (context, index) => Text(
             //     vm.mainCategory!.title,

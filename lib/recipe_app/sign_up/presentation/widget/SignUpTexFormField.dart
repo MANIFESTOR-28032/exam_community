@@ -37,7 +37,7 @@ class SignUpView extends StatelessWidget {
             controller: controller,
             validator: validator,
             style: TextStyle(
-              color: AppColors.bacround,
+              color: AppColors.background,
               fontSize: 16,
               fontWeight: FontWeight.w500,
             ),
@@ -46,7 +46,7 @@ class SignUpView extends StatelessWidget {
               fillColor: AppColors.pink,
               hintText: hintText,
               hintStyle: TextStyle(
-                color: AppColors.bacround.withValues(alpha: 0.5),
+                color: AppColors.background.withValues(alpha: 0.5),
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 height: 1

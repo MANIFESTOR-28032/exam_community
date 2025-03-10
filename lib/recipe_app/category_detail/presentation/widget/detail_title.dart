@@ -18,7 +18,7 @@ class RecipeItemTitle extends StatelessWidget {
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
-        color: AppColors.bacround,
+        color: AppColors.background,
         fontSize: 12,
       ),
     );

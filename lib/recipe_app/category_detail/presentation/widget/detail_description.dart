@@ -18,7 +18,7 @@ class RecipeItemDescription extends StatelessWidget {
       maxLines: 2,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
-        color: AppColors.bacround,
+        color: AppColors.background,
         fontFamily: "League Spartan",
         fontSize: 13,
         fontWeight: FontWeight.w300,

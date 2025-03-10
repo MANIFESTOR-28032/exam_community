@@ -33,7 +33,7 @@ class RecipeDetailInstructions extends StatelessWidget {
           style: TextStyle(
             fontSize: 12,
             fontWeight: FontWeight.w500,
-            color: AppColors.bacround,
+            color: AppColors.background,
           ),
         ),
       ),

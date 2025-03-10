@@ -65,7 +65,7 @@ class ProfileGender extends StatelessWidget {
             child: Text(
               vm.gender == null ? "Male/Female" : vm.gender!,
               style: TextStyle(
-                color: AppColors.bacround
+                color: AppColors.background
                     .withValues(alpha: vm.gender == null ? 0.5 : 1),
               ),
             ),
